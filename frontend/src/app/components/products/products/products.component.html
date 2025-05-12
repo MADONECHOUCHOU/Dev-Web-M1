@@ -1,0 +1,103 @@
+<!-- HEADER -->
+<header class="bg-white border-b border-gray-100 px-6 lg:px-[200px] py-6 flex justify-between items-center flex-wrap">
+  <div class="flex items-center space-x-2 mb-4 lg:mb-0">
+    <img src="assets/icon.png" class="w-8 h-8" alt="Logo">
+    <span class="text-xl font-bold text-gray-700">SUN CO.</span>
+  </div>
+
+  <button class="bg-white text-gray-700 px-4 py-2 border rounded border-black text-xl font-bold flex items-center gap-2">
+    <img src="assets/cart.png" class="w-5 h-6" alt="Cart">
+    View Cart
+  </button>
+</header>
+
+<!-- PAGE PRINCIPALE -->
+<main class="px-6 lg:px-[200px] py-10 space-y-10">
+
+  <!-- SECTION PRODUIT -->
+  <section class="flex flex-col lg:flex-row gap-10 mb-24">
+    <!-- Image + navigation -->
+    <div class="w-full lg:w-1/2 h-[550px] flex flex-col items-center">
+      <div class="bg-gray-100 rounded-xl p-4 w-full h-full flex flex-col justify-between">
+        <img src="assets/nike4.png" alt="Product" class="w-full max-w-[600px] max-h-[450px] object-contain mx-auto">
+      </div>
+
+      <div class="flex items-center justify-between gap-6 mt-6 w-full px-4 lg:px-0">
+        <button class="bg-white shadow-lg text-black w-12 h-12 rounded-full flex items-center justify-center text-2xl hover:bg-gray-300">
+          &#10094;
+        </button>
+        <div class="flex gap-2">
+          <span class="w-2.5 h-2.5 bg-black rounded-full inline-block"></span>
+          <span class="w-2.5 h-2.5 bg-gray-300 rounded-full inline-block"></span>
+          <span class="w-2.5 h-2.5 bg-gray-300 rounded-full inline-block"></span>
+        </div>
+        <button class="bg-white shadow-lg text-black w-12 h-12 rounded-full flex items-center justify-center text-2xl hover:bg-gray-300">
+          &#10095;
+        </button>
+      </div>
+    </div>
+
+    <!-- Détails produit -->
+    <div class="w-full lg:w-1/2 h-[550px] bg-white pt-6 pb-6 rounded-xl shadow-lg flex flex-col justify-between font-dm-sans">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-3 ml-8">adidas</h2>
+        <p class="text-2xl text-gray-600 mb-3 ml-8">DAILY 3.0 SHOES</p>
+        <p class="text-3xl font-semibold text-gray-900 mb-4 ml-8">$98.99</p>
+        <div class="border-t border-gray-200 my-4 w-full"></div>
+        <div class="mt-8 ml-8">
+          <label class="text-2xl block font-bold text-gray-700 mb-2">Quantity</label>
+          <div class="flex items-center gap-4 border border-gray-300 rounded-lg w-fit px-12 py-3">
+            <button class="text-xl font-bold hover:text-red-500">-</button>
+            <span class="text-base font-medium">1</span>
+            <button class="text-xl font-bold hover:text-green-600">+</button>
+          </div>
+        </div>
+      </div>
+      <button class="bg-black text-white py-6 rounded-lg font-semibold text-xl hover:bg-gray-800 transition m-8">
+        Add to Cart
+      </button>
+    </div>
+  </section>
+
+  <!-- SECTION DESCRIPTION -->
+  <section class="flex flex-col lg:flex-row gap-10 font-dm-sans">
+    <!-- Description texte -->
+    <div class="w-full lg:w-1/2 h-[500px] bg-white pt-6 pb-6 flex flex-col justify-between">
+      <div>
+        <h3 class="text-3xl font-bold mb-4">Description</h3>
+        <div class="border-t border-gray-300 w-full mb-6"></div>
+        <p class="text-2xl text-gray-500 mb-6 leading-relaxed mr-8">
+          Energize your look with a fresh take on heritage adidas style. These shoes bring together comfort and street-ready aesthetics for your everyday adventures.
+        </p>
+        <ul class="list-disc list-inside text-2xl text-gray-500 space-y-2">
+          <li>Regular fit</li>
+          <li>Lace closure</li>
+          <li>Rubber outsole with vulcanized look</li>
+          <li>Imported</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Image alignée bas -->
+    <div class="w-full lg:w-1/2 h-[450px] flex items-end">
+      <div class="bg-gray-100 rounded-xl p-4 w-full h-full flex ml-5 justify-center">
+        <img src="assets/nike5.png" alt="Side Product" class="w-full max-w-[600px] max-h-[450px] object-contain">
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-black px-6 lg:px-[200px] py-6 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm space-y-4 md:space-y-0">
+  <div class="flex items-center space-x-2">
+    <img src="assets/icon.png" class="w-5 h-5" alt="Logo">
+    <span>SUN CO.</span>
+  </div>
+  <p>© 2023 devloop.codes | black. All rights reserved</p>
+  <div class="flex items-center space-x-4">
+    <a href="#" class="hover:text-gray-400">🐦</a>
+    <a href="#" class="hover:text-gray-400">📘</a>
+    <a href="#" class="hover:text-gray-400">📸</a>
+  </div>
+</footer>
+
